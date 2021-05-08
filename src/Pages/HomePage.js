@@ -6,6 +6,7 @@ import project1Image from "../assets/Python Developer.jpg";
 import project2Image from "../assets/p2.png"
 import Modal from "../components/UI/Modal/Modal";
 import ChatBaloon from "../components/UI/Ballons/ChatBaloon";
+import ComponentImage from "../assets/Screenshot from 2021-05-08 14-44-49.png"
 
 const projects = [
   {
@@ -43,6 +44,13 @@ const projects = [
     description: "This is a Restful API written with Python and Flask. It uses a MondgoDB database and keeps the users in the database. Every user has a list of items in which they can add a new change, change an existing one, delete an item. Users are registering to the api by sending a request. Usernames and hashed passwords are stored in a database. Please visit the git repository from the link below for more information.",
     tags: ["Python", "Flask", "MongoDB", "Docker"],
     link: "https://github.com/melihekici/user-item-api"
+  },
+  {
+    id: "Project6",
+    name: "TFjs Classification Component",
+    image: ComponentImage,
+    description: "In this page, i share my react component for image classification using tensorflowjs model. You can find information on how to convert a h5 model to a tensorflowjs model and use it inside your react web application without using any backend APIs.",
+    tags: ["Python", "Tensorflowjs", "React"],
   }
 ];
 

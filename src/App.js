@@ -4,6 +4,7 @@ import HomePage from "./Pages/HomePage";
 import Project1 from "./components/Project1/Project1";
 import Project3 from "./components/Project3/Project3";
 import Project4 from "./components/Project4/Project4";
+import Tfjs from "./components/TensorflowJSComponent/TFJS";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       {currentPage==="Project2" && <Project2 pageChanger={pageChangeHandler}></Project2>}
       {currentPage==="Project3" && <Project3 pageChanger={pageChangeHandler}></Project3>}
       {currentPage==="Project4" && <Project4 pageChanger={pageChangeHandler}></Project4>}
+      {currentPage==="Project6" && <Tfjs pageChanger={pageChangeHandler}></Tfjs>}
       <footer>
           <ul>
               <li>
